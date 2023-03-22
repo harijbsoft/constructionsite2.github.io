@@ -10,7 +10,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  
+  font-family: "Lato", sans-serif;
   color: #444444;
 }
 
@@ -20,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #FF5F9E;
+  color: #FF0032;
   text-decoration: none;
 }
 
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -57,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #FF5F9E;
+  background: #FF0032;
   color: #fff;
 }
 
@@ -517,27 +518,27 @@ h6 {
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px 12px 32px;
+  padding: 12px 32px;
   border-radius: 4px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  text-transform: uppercase;
   border: 2px solid #FF0032;
-  background: #FF0032;
 }
 
 #hero .btn-get-started:hover {
-  background: #FF5F9E;
-  border-color: #FF5F9E;
+  background: #FF0032;
   color: #fff;
+  text-decoration: none;
 }
+
+
 
 @media (max-width: 768px) {
   #hero h2 {
@@ -652,6 +653,28 @@ section {
   color:#FF0032;
 }
 
+#about .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #FF0032;
+  animation-delay: 0.8s;
+  border: 2px solid #FF0032;
+}
+
+#about .btn-get-started:hover {
+  background: #FF0032;
+  color: #fff;
+  text-decoration: none;
+}
+
 .joinBtn {
   width: 10em;
   height: 5ex;
@@ -665,7 +688,7 @@ section {
 }
 
 .joinBtn:hover {
-  background-color: #FF5F9E;
+  background-color: #FF0032;
   animation:  a  8s linear Infinite;
 
 }
@@ -812,7 +835,7 @@ section {
   transition: 0.5s;
   color: #FF0032;
   overflow: hidden;
-  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.15);
 }
 
 .services .icon i {
@@ -821,7 +844,7 @@ section {
 }
 
 .services:hover .icon {
-  box-shadow: 0px 0 25px rgba(92, 159, 36, 0.3);
+  box-shadow: 0px 2px 50px rgba(92, 159, 36, 0.3);
 }
 
 .services .title {
@@ -870,7 +893,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #FF5F9E;
+  color: #FF0032;
 }
 
 .why-us .box h4 {
@@ -1008,7 +1031,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #FF5F9E;
+  color: #FF0032;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1316,7 +1339,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #FF5F9E;
+  color: #FF0032;
 }
 
 .faq .faq-list .icon-show,
@@ -1417,7 +1440,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #FF5F9E;
+  background: #FF0032;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1437,7 +1460,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #FF5F9E;
+  border: 3px solid #FF0032;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1467,7 +1490,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #FF5F9E;
+  background: #FF0032;
 }
 
 @keyframes animate-loading {
@@ -1625,7 +1648,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #FF5F9E;
+  color: #FF0032;
   font-size: 18px;
   line-height: 1;
 }
@@ -1648,7 +1671,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #FF5F9E;
+  color: #FF0032;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1681,7 +1704,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #FF5F9E;
+  background: #FF0032;
 }
 
 #footer .copyright {
